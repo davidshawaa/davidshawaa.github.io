@@ -103,7 +103,20 @@ section.text p+p {
 	padding-top: 6px;
 }
 
-.plus-animation {
+section {
+	position: absolute;
+	top: 54px;
+	bottom: 54px;
+	width: 100%;
+	height: auto;
+}
+
+section.plus-animation a {
+	position: absolute;
+	top: 54px;
+	bottom: 54px;
+	width: 100%;
+	height: auto;
 	background-color: white;
 	background-image: url("plus-animation.gif");
 	background-size: 300px 300px;
