@@ -5,6 +5,10 @@ body, html {
 h1, p, li {
   font: 15px/18px "NewRailAlphabet-Medium", Helvetica, Arial, sans-serif;
   color: black;
+	-webkit-text-size-adjust:none;
+	-ms-text-size-adjust:none;
+	-moz-text-size-adjust:none;
+	text-size-adjust:none;
 }
 
 nav h1 a, nav li a {
