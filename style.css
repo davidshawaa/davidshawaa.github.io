@@ -103,24 +103,10 @@ section.text p+p {
 	padding-top: 6px;
 }
 
-section.plus-animation img {
-	margin-top: calc((100% - 600px) / 2);
-	margin-left: calc((100% - 600px) / 2);
-	height: 600px;
-	width: 600px;
-	  object-position: left center;
-  animation: play 1s steps(6) infinite;
-}
-
-.plus-animated {
-	margin: auto;
-  width: 600px;
-  height: 600px;
-  background: url('plus-animation.png') left center;
-  background-size: 3600px 600px;
-  animation: play 1s steps(6) infinite;
-}
-
-@keyframes play {
-    100% { object-position: -3600px; }
+.plus-animation {
+	background-color: white;
+	background-image: url("plus-animation.gif");
+	background-size: 300px 300px;
+	background-position: center;
+	background-repeat: no-repeat;
 }
